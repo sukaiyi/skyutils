@@ -1,0 +1,95 @@
+Style = '''
+QWidget#rootWidget{
+	background-color: white;
+}
+
+TitleWidget QLabel#titleLabel{
+	font-family: Droid Sans Mono,楷体;
+	font-size:18px; 
+}
+
+TitleWidget QPushButton#iconLabel{
+	background-image: url(icon/icon_.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content;
+	background-color: transparent;
+}
+
+QComboBox {
+	border: 1px solid gray;
+	border-radius: 3px;
+	padding: 1px 18px 1px 3px;
+	font-family: Droid Sans Mono,楷体;
+	font-size:18px;  
+}
+
+QComboBox::drop-down {
+	subcontrol-origin:paddind;  
+	subcontrol-position: top right;
+	width: 15px;
+	padding: 1px 5px 1px 1px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+QComboBox::down-arrow {
+	image: url(icon/expand-down.png);
+}
+
+QComboBox QAbstractItemView {
+	border: 0px solid darkgray;
+	selection-background-color: lightgray;
+	font-family: Droid Sans Mono,楷体;
+	font-size:18px;
+}
+
+QComboBox QAbstractItemView::item {
+	color: black;
+}
+
+QPlainTextEdit 
+{
+	font-family: Droid Sans Mono,楷体;
+	font-size:24px;
+	color: black;
+	border:1px solid gray;
+	background: transparent;
+}
+
+QPlainTextEdit[readOnly=false]:hover {
+	font-size:24px;
+	color: black;
+	background: white;
+	border:1px solid gray;
+}
+
+QPushButton#switchBtn:hover:!pressed {
+	background-image: url(icon/exchange.png);
+	border-style: outset;
+	border-width: 0px;
+	border-radius:2px;
+}
+
+QPushButton#switchBtn:hover:pressed {
+	background-image: url(icon/exchange.png);
+	border-style: outset;
+	border-radius:2px;
+	background-color: rgb(77, 208, 225);
+}
+
+QPushButton#switchBtn {
+	background-image: url(icon/exchange.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-origin: content;
+	background-color: transparent;
+}
+QLabel {
+	border-radius: 5px;
+	padding: 7px;
+	color: red;
+	background: #ffecb3;
+	font-family: Consolas,楷体;
+}
+'''

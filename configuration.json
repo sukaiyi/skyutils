@@ -1,0 +1,47 @@
+[
+	{
+		"icon":"icon/format_json.png",
+		"title":"JSON",
+		"description":"格式化JSON"
+	},
+	{
+		"icon":"icon/translate.png",
+		"title":"Trans",
+		"description":"翻译"
+	},
+	{
+		"icon":"icon/qr_code.png",
+		"title":"二维码",
+		"description":"生成二维码"
+	},
+	{
+		"icon":"icon/u_l_case.png",
+		"title":"U L Case",
+		"description":"英文大小写转换"
+	},
+	{
+		"icon":"icon/unicode_encode.png",
+		"title":"U Encode",
+		"description":"unicode编码"
+	},
+	{
+		"icon":"icon/unicode_decode.png",
+		"title":"U Decode",
+		"description":"unicode解码"
+	},
+	{
+		"icon":"icon/key.png",
+		"title":"Encrypt",
+		"description":"不可逆加密"
+	},
+	{
+		"icon":"icon/hide.png",
+		"title":"hide",
+		"description":"hide"
+	},
+	{
+		"icon":"icon/quit.png",
+		"title":"quit",
+		"description":"退出"
+	}
+]
